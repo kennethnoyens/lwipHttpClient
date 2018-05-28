@@ -19,7 +19,7 @@
 */
 #include <stdlib.h>
 #include <string.h>
-#include "webclient.h"
+#include "httpclient.h"
 
 // Close a PCB(connection)
 void hc_clearpcb(struct tcp_pcb *pcb)
