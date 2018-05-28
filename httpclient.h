@@ -18,8 +18,8 @@
 
 */
 
-#ifndef __WEBCLIENT_H
-#define __WEBCLIENT_H
+#ifndef __HTTPCLIENT_H
+#define __HTTPCLIENT_H
 
 #include "utils/lwiplib.h"
 
@@ -51,4 +51,4 @@ struct hc_state {
 // Public function
 int hc_open(struct ip_addr, char *, char *, void (*)(u8_t, hc_errormsg, char *, u16_t));
 
-#endif //  __WEBCLIENT_H
+#endif //  __HTTPCLIENT_H
